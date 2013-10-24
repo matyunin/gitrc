@@ -1,7 +1,28 @@
 gitrc
 =====
 
-Linux shell aliases for git.
+Linux shell aliases for git provides some extended functionality.
+
+Smart shell prompt:
+
+```master user@host /local/path $```
+
+Short shell commands:
+
+```
+gb  = git branch
+gc  = git checkout
+gdc = git diff --color
+gcm = git checkout master & git pull
+gum = git submodule foreach 'git checkout master & git pull'
+gst = git status
+gmm = git merge origin/master
+gsl = git stash list
+gsp = git stash pop
+gsd = git stash show -p
+gss = git stash save
+gpo = git pull origin
+```
 
 Installation
 -----
