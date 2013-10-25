@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Gitrc by matyunin</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Gitrc</h1>
+        <p>Linux shell aliases for git</p>
+        <p class="view"><a href="https://github.com/matyunin/gitrc">View the Project on GitHub <small>matyunin/gitrc</small></a></p>
+        <ul>
+          <li><a href="https://github.com/matyunin/gitrc/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/matyunin/gitrc/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/matyunin/gitrc">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="gitrc" class="anchor" href="#gitrc"><span class="octicon octicon-link"></span></a>gitrc</h1>
+
+<p>Linux shell aliases for git provides some extended functionality.</p>
+
+<p>Smart shell prompt:</p>
+
+<pre><code>master user@host /local/path $
+</code></pre>
+
+<p>Short shell commands:</p>
+
+<pre><code>gb  = git branch
+gc  = git checkout
+gdc = git diff --color
+gcm = git checkout master &amp; git pull
+gum = git submodule foreach 'git checkout master &amp; git pull'
+gst = git status
+gmm = git merge origin/master
+gsl = git stash list
+gsp = git stash pop
+gsd = git stash show -p
+gss = git stash save
+gpo = git pull origin
+</code></pre>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>At first you should clone this repository to your local home folder:</p>
+
+<pre><code>cd ~ &amp;&amp; git clone https://github.com/matyunin/gitrc.git gitrc
+</code></pre>
+
+<p>Then install it in your own <code>.bashrc</code> file via executing following command:</p>
+
+<pre><code>echo "source ~/gitrc/gitrc.sh" &gt;&gt; ~/.bashrc
+</code></pre>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/matyunin">matyunin</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
