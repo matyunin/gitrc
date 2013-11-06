@@ -48,6 +48,8 @@ gsp = git stash pop
 gsd = git stash show -p
 gss = git stash save
 gpo = git pull origin
+gpull = git branch | grep "*" | sed "s/* //" | xargs git pull origin
+gpush = git branch | grep "*" | sed "s/* //" | xargs git push origin
 </code></pre>
 
 <h2>
